@@ -1,0 +1,45 @@
+body {
+    background-image: url("bg.png");
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.muschel1 {
+    background: url(muschel.png) no-repeat;
+    position: absolute;
+    left: 850px;
+    top: 400px;
+    
+}
+
+.muschel1:hover {
+    
+    background: url(muschel_perle.png) no-repeat; 
+}
+
+
+.muschel2 {
+    position: absolute;
+    left: 700px;
+    top: 300px;
+}
+
+.muschel3 {
+    position: absolute;
+    left: 550px;
+    top: 440px;
+}
+
+
+
+h2 {
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    color: white;
+}

@@ -1,0 +1,39 @@
+body {
+    background-image: url("bg.png");
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shell {
+    position: absolute;
+    left: 430px;
+    top: 440px;
+}
+
+.penguin {
+    position: absolute;
+    left: 930px;
+    top: 380px;
+}
+
+h2 {
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    color: white;
+}
+
+p {
+    width: 420px;
+    height: 400px;
+    position: absolute;
+    left: 520px;
+    top: 270px;
+    color: white;
+    font-size: 17px;
+}
