@@ -11,20 +11,20 @@ body {
 
 .shell {
     position: absolute;
-    left: 600px;
-    top: 560px;
+    left: -50px;
+    top: 300px;
 }
 
 .penguin {
     position: absolute;
-    left: 1100px;
-    top: 500px;
+    left: 450px;
+    top: 230px;
 }
 
 h2 {
     position: absolute;
-    left: 750px;
-    top: 300px;
+    left: 50px;
+    top: 50px;
     color: white;
 }
 
@@ -32,8 +32,8 @@ p {
     width: 420px;
     height: 400px;
     position: absolute;
-    left: 720px;
-    top: 375px;
+    left: 50px;
+    top: 115px;
     color: white;
     font-size: 17px;
 }
