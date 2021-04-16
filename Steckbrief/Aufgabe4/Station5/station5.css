@@ -1,0 +1,41 @@
+body {
+    background-image: url("bg.png");
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h2 {
+    position: absolute;
+    left: 725px;
+    top: 300px;
+    color: white;
+    font-size: 26pt;
+}
+
+.Block {
+    column-count:3;
+    column-gap: 40px;
+    width: 500px;
+    position: absolute;
+    left: 700px;
+    top: 400px;
+    text-align: center;
+}
+
+
+.Block2 {
+    column-count:2;
+    column-gap: 20px;
+    width: 400px;
+    position: absolute;
+    left: 755px;
+    top: 500px;
+    text-align: center;
+}
+

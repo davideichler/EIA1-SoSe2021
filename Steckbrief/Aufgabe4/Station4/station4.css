@@ -11,29 +11,44 @@ body {
 
 .shell {
     position: absolute;
-    left: 600px;
-    top: 560px;
+    left: 430px;
+    top: 440px;
 }
 
 .penguin {
     position: absolute;
-    left: 1100px;
-    top: 500px;
+    left: 930px;
+    top: 380px;
 }
 
 h2 {
     position: absolute;
-    left: 750px;
+    left: 730px;
     top: 300px;
     color: white;
+    font-size: 26pt;
 }
 
 p {
     width: 420px;
     height: 400px;
     position: absolute;
-    left: 720px;
-    top: 375px;
+    left: 520px;
+    top: 270px;
     color: white;
     font-size: 17px;
+}
+
+form {
+    position: absolute;
+    left: 730px;
+    top: 400px;
+    color: honeydew;
+
+}
+
+#lname {
+
+    width: 350px;
+    height: 50px;
 }
