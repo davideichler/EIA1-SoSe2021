@@ -1,5 +1,5 @@
 var Aufgabe6;
-(function (Aufgabe6) { 
+(function () { 
 
 var africa: string = "Africa";
 var asia: string = "Asia";
@@ -38,18 +38,14 @@ window.addEventListener("load", function () {
  function emission (continentName:string, continentValue2018:number, continentValue2008:number) {
     
     document.querySelector("#continentTitle").innerHTML = continentName;
-    document.querySelector("#emissionAbsolut").innerHTML = continentValue2008.toString();
-    document.querySelector("#emissionRelative").innerHTML =  (Math.round(continentValue2008 / world_2018 * 100 *100) / 100).toString() + "%";
-    document.querySelector("#growthRelative").innerHTML = (Math.round (( continentValue2018 - continentValue2018 ) / continentValue2008 * 100 *100) /100).toString() + "%";
-    document.querySelector("#growthAbsoulut").innerHTML = (Math.round ((continentValue2018 - continentValue2008)*100)/100).toString();
-
+    document.querySelector("#continentSubtitle").innerHTML = continentName;
+    document.querySelector("#emissionAbsolut").innerHTML = continentValue2018.toString();
+    document.querySelector("#emissionRelative").innerHTML =  (Math.round(continentValue2018 / world_2018 * 100 *100) / 100).toString() + "%";
+    document.querySelector("#growthRelative").innerHTML = (Math.round (( continentValue2018 - continentValue2008 ) / continentValue2008 * 100 *100) /100).toString() + "%";
+    document.querySelector("#growthAbsolut").innerHTML = (Math.round ((continentValue2018 - continentValue2008)*100)/100).toString();
+    document.querySelector(".chart").setAttribute("style", "height:" + (continentValue2018 / world_2018) * 100 + "%");
 };
 
 
-function test () {
-    document.querySelector("h1").innerHTML = "Test test test";
-}
-
-
-})
+})();
 
