@@ -1,4 +1,4 @@
-window.addEventListener("load", function () {
+window.addEventListener("click", function () {
     var artyom = new Artyom();
     artyom.addCommands({
         indexes: ["erstelle Aufgabe *"],

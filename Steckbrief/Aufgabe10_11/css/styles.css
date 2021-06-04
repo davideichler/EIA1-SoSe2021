@@ -13,6 +13,15 @@ main {
     color: grey;
 }
 
+#counterOpen {
+    color: grey;
+}
+
+#counterDone {
+    color: grey;
+}
+
+
 .inputGroup {
     position: relative;
 }
@@ -84,4 +93,8 @@ main {
 
 .trash:hover {
     color: black;
+}
+
+#spracheingabe {
+    font-weight: 700;
 }

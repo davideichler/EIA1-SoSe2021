@@ -1,6 +1,6 @@
 declare var Artyom: any;
 
-window.addEventListener("load", function(): void {
+window.addEventListener("click", function(): void {
     const artyom: any = new Artyom();
     
     artyom.addCommands({
@@ -8,6 +8,7 @@ window.addEventListener("load", function(): void {
         smart: true,
         action: function(i: any, wildcard: string): void {
             console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            
         }
     });
     
